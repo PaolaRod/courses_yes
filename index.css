@@ -1,0 +1,123 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.text-courses {
+	color: #5F2EEA !important;
+}
+
+.carousel-inner img {
+	width: 100%;
+	height: 70vh;
+}
+
+.carousel-item {
+	height: 100%;
+	width: 100%;
+}
+
+.btn-courses {
+	background-color: #5F2EEA;
+	color: white;
+}
+
+.btn-courses:hover {
+	background-color: white;
+	color: black;
+	border-color: #5F2EEA;
+}
+
+#carousel {
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 100%;
+	width: 100%; 
+}
+
+.carousel .overlay {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/* background-color: rgba(0, 0, 0, 0.5); */
+	color: black;
+}
+
+/* .carousel-inner {
+	width: 100%;
+	display: flex;
+} */
+
+/* .container-fluid {
+	height: 90%;
+	width: 100%;
+} */
+
+.carousel .overlay .container,
+.carousel .overlay .row {
+	height: 100%;
+} 
+
+.products img {
+	height: 300px;
+}
+
+#footer {
+	background-color: #94DAD5;
+}
+
+#footer a {
+	color: black;
+}
+
+.header {
+	width: 100%;
+	height: 57px;
+}
+
+.main {
+	background-color: #94DAD5;
+	display: flex;
+	width: 100%; 
+}
+
+.navbar-brand img {
+	height: 25px;
+	width: 25px;
+}
+
+.cryptocurrency {
+	background-color: #FFCAB8;
+}
+
+.design {
+	background-color: #EBE8E8;
+}
+
+.english {
+	background-color: #F0DBD8;
+}
+
+.form {
+	background-color: #94DAD5;
+}
+
+.form-line {
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: 0.25rem;
+}
+
+.message {
+	width: 150px;
+}
+
+@media (max-width: 576px) {
+	.carousel-inner img {
+		width: 100%;
+		height: 55vh;
+	}
+
+}
